@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #ffffff;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 10px;
+  flex-direction: column;
+  width: 150px;
+  gap: 20px;
+}
+
+.add-task-input {
+  display: flex;
+  gap: 10px;
+}
+
+.add-task-input input {
+  flex-grow: 1;
+}
